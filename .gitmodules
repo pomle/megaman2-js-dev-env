@@ -1,0 +1,15 @@
+[submodule "repos/testing"]
+	path = repos/testing
+	url = git@github.com:snakesilk/snakesilk-testing.git
+[submodule "repos/megaman-kit"]
+	path = repos/megaman-kit
+	url = git@github.com:snakesilk/megaman-kit.git
+[submodule "repos/engine"]
+	path = repos/engine
+	url = git@github.com:snakesilk/snakesilk-engine.git
+[submodule "repos/xml-loader"]
+	path = repos/xml-loader
+	url = git@github.com:snakesilk/snakesilk-xml-loader.git
+[submodule "repos/megamanjs"]
+	path = repos/megamanjs
+	url = git@github.com:pomle/megamanjs

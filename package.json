@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "postinstall": "yarn run install-repos",
+        "install-repos": "./scripts/install.sh",
+        "setup-dev": "./scripts/setup-dev.sh",
+        "run-dev": "./scripts/run-dev.sh"
+    },
+    "dependencies": {
+        "concurrently": "^3.5.0"
+    }
+}
