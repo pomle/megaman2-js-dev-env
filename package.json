@@ -4,6 +4,7 @@
         "postinstall": "yarn run install-repos",
         "install-repos": "./scripts/install.sh",
         "link": "./scripts/link.sh",
+        "unlink": "./scripts/unlink.sh",
         "setup-dev": "./scripts/setup-dev.sh",
         "start-dev": "./scripts/run-dev.sh"
     },
