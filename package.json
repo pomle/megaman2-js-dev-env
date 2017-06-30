@@ -1,11 +1,14 @@
 {
+    "license": "MIT",
     "scripts": {
         "postinstall": "yarn run install-repos",
         "install-repos": "./scripts/install.sh",
+        "link": "./scripts/link.sh",
         "setup-dev": "./scripts/setup-dev.sh",
-        "run-dev": "./scripts/run-dev.sh"
+        "start-dev": "./scripts/run-dev.sh"
     },
     "dependencies": {
-        "concurrently": "^3.5.0"
+        "concurrently": "^3.5.0",
+        "three": "0.70"
     }
 }

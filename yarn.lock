@@ -83,6 +83,10 @@ supports-color@^3.2.3:
   dependencies:
     has-flag "^1.0.0"
 
+three@0.70:
+  version "0.70.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.70.1.tgz#459e5eabf2240bda58ea4ba412c14d0b3e4a250d"
+
 tree-kill@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.1.0.tgz#c963dcf03722892ec59cba569e940b71954d1729"

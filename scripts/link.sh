@@ -35,6 +35,8 @@ cd ./repos/megaman-kit
     cd -
 
 cd ./repos/megamanjs
+    yarn link three
     yarn link @snakesilk/engine
     yarn link @snakesilk/xml-loader
     yarn link @snakesilk/megaman-kit
+    yarn link @snakesilk/testing
