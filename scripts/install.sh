@@ -1,4 +1,7 @@
 #! /usr/bin/env bash
+git submodule init
+git submodule update
+
 concurrently \
     'cd ./repos/testing && yarn' \
     'cd ./repos/engine && yarn' \
