@@ -13,3 +13,12 @@
 [submodule "repos/megamanjs"]
 	path = repos/megamanjs
 	url = git@github.com:pomle/megamanjs
+[submodule "repos/megaman-traits"]
+	path = repos/megaman-traits
+	url = git@github.com:snakesilk/megaman-traits.git
+[submodule "repos/platform-traits"]
+	path = repos/platform-traits
+	url = git@github.com:snakesilk/platform-traits.git
+[submodule "repos/platform-kit"]
+	path = repos/platform-kit
+	url = git@github.com:snakesilk/platform-kit.git

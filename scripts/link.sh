@@ -23,10 +23,35 @@ cd ./repos/xml-loader
     yarn link @snakesilk/engine
     cd -
 
-cd ./repos/megaman-kit
+cd ./repos/platform-traits
     yarn link
+    yarn link three
+    yarn link @snakesilk/engine
+    cd -
+
+cd ./repos/platform-kit
+    yarn link
+    yarn link three
     yarn link @snakesilk/engine
     yarn link @snakesilk/xml-loader
+    yarn link @snakesilk/platform-traits
+    cd -
+
+cd ./repos/megaman-traits
+    yarn link
+    yarn link three
+    yarn link @snakesilk/engine
+    yarn link @snakesilk/platform-traits
+    cd -
+
+cd ./repos/megaman-kit
+    yarn link
+    yarn link three
+    yarn link @snakesilk/engine
+    yarn link @snakesilk/xml-loader
+    yarn link @snakesilk/platform-traits
+    yarn link @snakesilk/platform-kit
+    yarn link @snakesilk/megaman-traits
     cd -
 
 cd ./repos/megamanjs
@@ -35,3 +60,11 @@ cd ./repos/megamanjs
     yarn link @snakesilk/xml-loader
     yarn link @snakesilk/megaman-kit
     yarn link @snakesilk/testing
+    cd -
+
+cd ./repos/editor
+    yarn link
+    yarn link three
+    yarn link @snakesilk/engine
+    yarn link @snakesilk/xml-loader
+    cd -

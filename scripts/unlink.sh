@@ -33,3 +33,4 @@ cd ./repos/megamanjs
     yarn unlink @snakesilk/xml-loader
     yarn unlink @snakesilk/megaman-kit
     yarn unlink @snakesilk/testing
+    cd -

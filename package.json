@@ -6,7 +6,8 @@
         "link": "./scripts/link.sh",
         "unlink": "./scripts/unlink.sh",
         "setup-dev": "./scripts/setup-dev.sh",
-        "start-dev": "./scripts/run-dev.sh"
+        "start-dev": "./scripts/run-dev.sh",
+        "start-dev-editor": "./scripts/run-dev-editor.sh"
     },
     "dependencies": {
         "concurrently": "^3.5.0",
